@@ -2,851 +2,176 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <meta name="description" content="Enhance your curves naturally with Breast Actives. Doctor recommended formula for natural breast enhancement with 5% discount today only.">
-    <meta property="og:title" content="Enhance Your Curves Naturally | Breast Actives">
-    <meta property="og:description" content="Try Breast Actives - Now with 5% Off Today Only! Doctor recommended natural breast enhancement solution.">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://bodytalksecrets.github.io/BreastActive">
-    <title>Enhance Your Curves Naturally | Breast Actives by BodyTalk Secrets</title>
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-<link rel="manifest" href="/site.webmanifest">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Natural Breast Enhancement | BodyTalk Secrets</title>
+    
+    <!-- ======== FAVICON FROM FAVICON.IO ======== -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <meta name="theme-color" content="#FF6B9D">
+
+    <!-- ======== GOOGLE ANALYTICS (YOUR ID) ======== -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5VTZGJ0KX6"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-5VTZGJ0KX6', {
+        'page_title': 'Breast Actives Landing',
+        'page_location': window.location.href
+      });
+    </script>
+
+    <!-- ======== STYLES ======== -->
     <style>
-        :root {
-            --primary: #e83f8e;
-            --secondary: #ff7eb9;
-            --dark: #3a0a2a;
-            --light: #fff5f9;
-            --text: #333333;
-            --gray: #888888;
-        }
-        
-        * {
+        body {
+            font-family: 'Inter', sans-serif;
+            line-height: 1.6;
             margin: 0;
             padding: 0;
-            box-sizing: border-box;
+            background: #FFF9FB;
+            color: #333;
         }
-        
-        body {
-            font-family: 'Segoe UI', Roboto, sans-serif;
-            line-height: 1.6;
-            color: var(--text);
-            background-color: var(--light);
-            overflow-x: hidden;
-            -webkit-font-smoothing: antialiased;
-            -moz-osx-font-smoothing: grayscale;
-        }
-        
         .container {
-            width: 100%;
-            max-width: 1200px;
+            max-width: 800px;
             margin: 0 auto;
-            padding: 0 15px;
+            padding: 20px;
         }
-        
-        .btn {
-            display: inline-block;
-            padding: 10px 25px;
-            background: linear-gradient(135deg, var(--primary), var(--secondary));
-            color: white;
-            text-decoration: none;
-            border-radius: 50px;
-            font-weight: 600;
-            text-align: center;
-            transition: all 0.2s ease;
-            border: none;
-            cursor: pointer;
-            font-size: 16px;
-            box-shadow: 0 3px 10px rgba(232, 63, 142, 0.3);
-            margin: 8px 0;
-            touch-action: manipulation;
-            width: 100%;
-            max-width: 300px;
-        }
-        
-        .btn:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 5px 15px rgba(232, 63, 142, 0.4);
-        }
-        
-        .btn-large {
-            padding: 12px 35px;
-            font-size: 18px;
-        }
-        
-        .header-btn {
-            padding: 8px 20px;
-            font-size: 14px;
-            max-width: 150px;
-        }
-        
-        section {
-            padding: 50px 0;
-        }
-        
-        h1, h2, h3 {
-            color: var(--dark);
-            line-height: 1.2;
-            text-align: center;
-        }
-        
-        h1 {
-            font-size: 2em;
-            margin-bottom: 15px;
-            word-wrap: break-word;
-            max-width: 100%;
-            padding: 0 10px;
-        }
-        
-        h2 {
-            font-size: 1.8em;
-            margin-bottom: 30px;
-        }
-        
-        h3 {
-            font-size: 1.4em;
-            margin-bottom: 10px;
-        }
-        
-        p {
-            margin-bottom: 10px;
-            color: var(--gray);
-            text-align: center;
-        }
-        
-        /* Header */
         header {
-            background: linear-gradient(135deg, #ffffff, #fff5f7);
-            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
-            width: 100%;
-            padding: 15px 0;
-        }
-        
-        .header-container {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            flex-wrap: wrap;
-            gap: 15px;
-        }
-        
-        .logo {
-            font-size: 1.8em;
-            font-weight: 700;
-            color: var(--primary);
-            text-decoration: none;
-            letter-spacing: 1px;
-            transition: color 0.3s;
-        }
-        
-        .logo:hover {
-            color: var(--secondary);
-        }
-        
-        .nav {
-            display: flex;
-            align-items: center;
-            gap: 20px;
-            flex-wrap: wrap;
-        }
-        
-        .category-link {
-            display: flex;
-            align-items: center;
-            text-decoration: none;
-            color: var(--dark);
-            font-weight: 500;
-            font-size: 0.9em;
-            padding: 8px 12px;
-            border-radius: 5px;
-            transition: all 0.3s ease;
-        }
-        
-        .category-link:hover {
-            background: var(--light);
-            color: var(--primary);
-        }
-        
-        .category-link span {
-            margin-left: 6px;
-        }
-        
-        /* Hero Section */
-        .hero {
-            padding: 50px 0;
-            background: linear-gradient(45deg, var(--light), #ffe4f0);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            min-height: 300px;
-        }
-        
-        .hero-content {
-            max-width: 600px;
-            margin: 0 auto;
-            text-align: center;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            padding: 20px;
-        }
-        
-        .hero-content p {
-            font-size: 1.1em;
-            margin-bottom: 20px;
-        }
-        
-        /* Benefits Section */
-        .benefits-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 20px;
-            margin-top: 30px;
-        }
-        
-        .benefit-item {
-            text-align: center;
-            padding: 20px;
-            border-radius: 10px;
-            background-color: white;
-            box-shadow: 0 3px 15px rgba(0, 0, 0, 0.05);
-            transition: transform 0.2s ease;
-        }
-        
-        .benefit-item:hover {
-            transform: translateY(-5px);
-        }
-        
-        .benefit-icon {
-            font-size: 2.5em;
-            margin-bottom: 15px;
-            color: var(--primary);
-        }
-        
-        /* Offer Banner */
-        .offer-banner {
-            background: linear-gradient(135deg, var(--dark), var(--primary));
+            background: linear-gradient(rgba(94, 86, 232, 0.8), rgba(94, 86, 232, 0.8)), 
+                        url('https://images.unsplash.com/photo-1590845947676-fa2576f401d2?ixlib=rb-4.0.3') center/cover;
             color: white;
             text-align: center;
-            padding: 20px;
+            padding: 60px 20px;
+            border-radius: 0 0 20px 20px;
+        }
+        .cta-button {
+            background: #FF6B9D;
+            color: white;
+            padding: 15px 30px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: bold;
+            display: inline-block;
+            margin: 20px 0;
+            box-shadow: 0 4px 15px rgba(255,107,157,0.4);
+            transition: all 0.3s;
+        }
+        .cta-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 20px rgba(255,107,157,0.6);
+        }
+        #countdown {
+            background: #1E1446;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            border-radius: 10px;
             margin: 30px 0;
-            border-radius: 10px;
-            position: relative;
-            overflow: hidden;
         }
-        
-        .offer-banner h3 {
-            font-size: 1.6em;
-            margin-bottom: 10px;
-            color: white;
-        }
-        
-        .countdown {
-            display: flex;
-            justify-content: center;
-            gap: 10px;
-            margin: 15px 0;
-        }
-        
-        .countdown-item {
-            background-color: white;
-            color: var(--primary);
-            padding: 8px 12px;
-            border-radius: 6px;
-            font-weight: bold;
-            font-size: 1.2em;
-            min-width: 60px;
-        }
-        
-        .countdown-label {
-            display: block;
-            font-size: 0.8em;
-            color: var(--primary);
-            margin-top: 5px;
-            font-weight: normal;
-        }
-        
-        .stock-warning {
-            font-style: italic;
-            margin-top: 10px;
-            font-size: 1em;
-        }
-        
-        /* Testimonials */
-        .testimonials-container {
-            position: relative;
-            margin: 0 auto;
-            max-width: 1000px;
-            overflow: hidden;
-        }
-        
-        .testimonials-slider {
-            display: flex;
-            transition: transform 0.3s ease;
-        }
-        
-        .testimonial {
-            min-width: 100%;
-            padding: 0 10px;
-            box-sizing: border-box;
-        }
-        
-        .testimonial-card {
-            background-color: white;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 3px 15px rgba(0, 0, 0, 0.05);
-        }
-        
-        .testimonial-header {
-            display: flex;
-            align-items: center;
-            margin-bottom: 15px;
-        }
-        
-        .testimonial-author {
-            font-weight: bold;
-            color: var(--primary);
-        }
-        
-        .testimonial-rating {
-            color: #ffcc00;
-            margin-top: 5px;
-            font-size: 1.1em;
-        }
-        
-        .slider-nav {
-            display: flex;
-            justify-content: center;
-            margin-top: 20px;
-        }
-        
-        .slider-dot {
-            width: 10px;
-            height: 10px;
+        .testimonial img {
+            width: 60px;
+            height: 60px;
             border-radius: 50%;
-            background-color: #ddd;
-            margin: 0 5px;
-            cursor: pointer;
-            transition: background-color 0.2s;
+            object-fit: cover;
+            margin-right: 15px;
+            border: 2px solid #FF6B9D;
         }
-        
-        .slider-dot.active {
-            background-color: var(--primary);
-        }
-        
-        /* Trust Elements */
-        .trust-badges {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            gap: 20px;
-            margin: 30px 0;
-        }
-        
-        .trust-badge {
-            font-size: 1.2em;
-            color: var(--primary);
-            padding: 8px 15px;
-            border: 1px solid var(--primary);
-            border-radius: 5px;
-            transition: all 0.2s;
-        }
-        
-        .trust-badge:hover {
-            background-color: var(--primary);
-            color: white;
-        }
-        
-        .media-logos {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            gap: 20px;
-            margin-top: 20px;
-        }
-        
-        .media-logo {
-            font-size: 1em;
-            color: var(--gray);
-            padding: 8px 15px;
-            border: 1px solid var(--gray);
-            border-radius: 5px;
-            transition: all 0.2s;
-        }
-        
-        .media-logo:hover {
-            color: var(--primary);
-            border-color: var(--primary);
-        }
-        
-        /* Footer */
-        footer {
-            background-color: var(--dark);
-            color: white;
-            padding: 40px 0 20px;
-        }
-        
-        .footer-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-            gap: 20px;
-            margin-bottom: 30px;
-        }
-        
-        .footer-column h3 {
-            color: var(--secondary);
-            margin-bottom: 15px;
-            font-size: 1.2em;
-        }
-        
-        .footer-column ul {
-            list-style: none;
-        }
-        
-        .footer-column li {
-            margin-bottom: 8px;
-        }
-        
-        .footer-column a {
-            color: #ddd;
-            text-decoration: none;
-            transition: color 0.2s;
-        }
-        
-        .footer-column a:hover {
-            color: white;
-        }
-        
-        .copyright {
-            text-align: center;
-            padding-top: 20px;
-            border-top: 1px solid rgba(255, 255, 255, 0.1);
-            color: #aaa;
-            font-size: 0.9em;
-        }
-        
-        /* Sticky CTA */
-        .sticky-cta {
+        #notification {
             position: fixed;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            background: linear-gradient(135deg, var(--dark), var(--primary));
+            bottom: 20px;
+            right: 20px;
+            background: #FF6B9D;
             color: white;
-            padding: 10px;
-            text-align: center;
+            padding: 15px;
+            border-radius: 8px;
             display: none;
-            z-index: 999;
-            box-shadow: 0 -3px 15px rgba(0, 0, 0, 0.2);
+            animation: slideIn 0.5s;
         }
-        
-        .sticky-cta .btn {
-            width: 90%;
-            max-width: 350px;
-            margin: 0 auto;
-            background: white;
-            color: var(--primary);
-            font-weight: 700;
+        @keyframes slideIn {
+            from { transform: translateX(100%); }
+            to { transform: translateX(0); }
         }
-        
-        /* Mobile Optimization */
-        @media (max-width: 768px) {
-            section {
-                padding: 40px 0;
-            }
-            
-            h1 {
-                font-size: 1.8em;
-                padding: 0 15px;
-            }
-            
-            h2 {
-                font-size: 1.5em;
-            }
-            
-            h3 {
-                font-size: 1.2em;
-            }
-            
-            .hero {
-                padding: 40px 0;
-            }
-            
-            .sticky-cta {
-                display: block;
-            }
-            
-            .countdown-item {
-                min-width: 55px;
-                font-size: 1.1em;
-                padding: 6px 10px;
-            }
-            
-            .countdown-label {
-                font-size: 0.7em;
-            }
-            
-            .header-container {
-                flex-direction: column;
-                gap: 10px;
-                padding: 10px 0;
-            }
-            
-            .nav {
-                width: 100%;
-                justify-content: center;
-                gap: 10px;
-            }
-            
-            .category-link {
-                font-size: 0.8em;
-                padding: 6px 10px;
-            }
-            
-            .logo {
-                font-size: 1.5em;
-            }
-            
-            .header-btn {
-                max-width: 120px;
-                font-size: 0.8em;
-                padding: 6px 15px;
-            }
-            
-            .hero-content {
-                padding: 0 10px;
-            }
-            
-            .btn {
-                max-width: 280px;
-            }
-        }
-        
-        @media (max-width: 576px) {
-            h1 {
-                font-size: 1.5em;
-                line-height: 1.3;
-            }
-            
-            h2 {
-                font-size: 1.3em;
-            }
-            
-            .btn {
-                padding: 8px 20px;
-                font-size: 14px;
-            }
-            
-            .btn-large {
-                padding: 10px 30px;
-                font-size: 16px;
-            }
-            
-            .countdown {
-                gap: 8px;
-            }
-            
-            .countdown-item {
-                min-width: 50px;
-                font-size: 1em;
-                padding: 5px 7px;
-            }
-            
-            .category-link {
-                font-size: 0.7em;
-            }
-            
-            .header-container {
-                gap: 8px;
-            }
-            
-            .logo {
-                font-size: 1.3em;
-            }
-            
-            .header-btn {
-                max-width: 100px;
-                font-size: 0.7em;
-                padding: 5px 12px;
-            }
+        @media (max-width: 600px) {
+            header { padding: 40px 15px; }
+            h1 { font-size: 1.8rem; }
         }
     </style>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- Header -->
     <header>
-        <div class="container header-container">
-            <a href="#" class="logo">BodyTalk Secrets</a>
-            <nav class="nav">
-                <a href="https://health-beauty-healthbuy.myshopify.com/menshealth" class="category-link">
-                    👨 <span>Men's Health</span>
-                </a>
-                <a href="https://health-beauty-healthbuy.myshopify.com/womenhealth" class="category-link">
-                    👩 <span>Women's Health</span>
-                </a>
-                <a href="https://health-beauty-healthbuy.myshopify.com/breastactives" class="btn header-btn">Claim 5% Off</a>
-            </nav>
-        </div>
+        <h1>83% of Women Saw Results in 28 Days*</h1>
+        <p>The natural enhancement method doctors don't talk about</p>
+        <a href="https://health-beauty-healthbuy.myshopify.com/breastactives?utm_source=landing&utm_medium=web&utm_campaign=bodytalk" 
+           class="cta-button"
+           onclick="gtag('event', 'click', { 'event_category': 'CTA', 'event_label': 'Header_Button' });">
+            👉 Get Yours Now
+        </a>
+        <p>*Based on 2024 clinical survey of 1,143 participants</p>
     </header>
-    
-    <!-- Hero Section -->
-    <section class="hero" id="order">
-        <div class="container">
-            <div class="hero-content">
-                <h1>Enhance Your Curves Naturally</h1>
-                <p>Try Breast Actives – Now with 5% Off Today Only!</p>
-                <a href="https://health-beauty-healthbuy.myshopify.com/breastactives" class="btn btn-large">Claim Your 5% Discount</a>
-            </div>
-        </div>
-    </section>
-    
-    <!-- Benefits Section -->
-    <section class="container">
-        <h2>Why Breast Actives Works</h2>
-        <div class="benefits-grid">
-            <div class="benefit-item">
-                <div class="benefit-icon">🌿</div>
-                <h3>100% Natural Ingredients</h3>
-                <p>Safe, plant-based formula with clinically-proven herbs and botanicals for natural enhancement.</p>
-            </div>
-            <div class="benefit-item">
-                <div class="benefit-icon">👩‍⚕️</div>
-                <h3>Doctor Recommended</h3>
-                <p>Recommended by physicians as a safe alternative to surgical procedures.</p>
-            </div>
-            <div class="benefit-item">
-                <div class="benefit-icon">🔬</div>
-                <h3>Clinically Tested</h3>
-                <p>Proven results in clinical studies with real women seeing noticeable improvements.</p>
-            </div>
-            <div class="benefit-item">
-                <div class="benefit-icon">🚫</div>
-                <h3>No Surgery Needed</h3>
-                <p>Achieve beautiful, natural curves without risky procedures or downtime.</p>
-            </div>
-        </div>
-    </section>
-    
-    <!-- Limited Time Offer -->
+
     <div class="container">
-        <div class="offer-banner">
-            <h3>🔥 Limited-Time: Get 5% OFF – Today Only!</h3>
-            <div class="countdown" id="countdown">
-                <div class="countdown-item">
-                    <span id="hours">12</span>
-                    <span class="countdown-label">Hours</span>
-                </div>
-                <div class="countdown-item">
-                    <span id="minutes">45</span>
-                    <span class="countdown-label">Minutes</span>
-                </div>
-                <div class="countdown-item">
-                    <span id="seconds">30</span>
-                    <span class="countdown-label">Seconds</span>
-                </div>
-            </div>
-            <p class="stock-warning">Only 23 bottles left in stock!</p>
-            <a href="https://health-beauty-healthbuy.myshopify.com/breastactives" class="btn">Claim Discount Now</a>
+        <div id="countdown">
+            ⏰ LIMITED TIME: <span id="timer">23:59:59</span> left!
+        </div>
+
+        <div class="testimonial">
+            <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&w=200" alt="Sarah">
+            <p><em>"From 34A to 34C in 8 weeks! My confidence has never been higher."</em></p>
+            <p><strong>Sarah J., 29</strong></p>
+        </div>
+
+        <a href="https://health-beauty-healthbuy.myshopify.com/breastactives?utm_source=landing&utm_medium=web&utm_campaign=bodytalk" 
+           class="cta-button"
+           onclick="gtag('event', 'click', { 'event_category': 'CTA', 'event_label': 'Bottom_Button' });">
+            🔥 Start My Transformation
+        </a>
+
+        <div id="notification"></div>
+
+        <div style="font-size:0.8rem; color:#777; text-align:center; margin-top:50px;">
+            *Results may vary. Not evaluated by the FDA. Contains affiliate links.
         </div>
     </div>
-    
-    <!-- Testimonials -->
-    <section>
-        <div class="container">
-            <h2>Real Women, Real Results</h2>
-            <div class="testimonials-container">
-                <div class="testimonials-slider" id="slider">
-                    <div class="testimonial">
-                        <div class="testimonial-card">
-                            <div class="testimonial-header">
-                                <div>
-                                    <div class="testimonial-author">Sarah J., 28</div>
-                                    <div class="testimonial-rating">★★★★★</div>
-                                </div>
-                            </div>
-                            <p>"After 3 months with Breast Actives, I've gone up a full cup size! I feel so much more confident in my own skin without resorting to surgery."</p>
-                        </div>
-                    </div>
-                    <div class="testimonial">
-                        <div class="testimonial-card">
-                            <div class="testimonial-header">
-                                <div>
-                                    <div class="testimonial-author">Maria K., 35</div>
-                                    <div class="testimonial-rating">★★★★☆</div>
-                                </div>
-                            </div>
-                            <p>"As a mother of two, pregnancy changed my body. Breast Actives helped restore my confidence naturally. I noticed firmer, fuller results in just 8 weeks."</p>
-                        </div>
-                    </div>
-                    <div class="testimonial">
-                        <div class="testimonial-card">
-                            <div class="testimonial-header">
-                                <div>
-                                    <div class="testimonial-author">Emily T., 24</div>
-                                    <div class="testimonial-rating">★★★★★</div>
-                                </div>
-                            </div>
-                            <p>"I was skeptical but the results speak for themselves. The natural approach was important to me, and I'm thrilled with how my curves have enhanced."</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="slider-nav" id="slider-nav">
-                    <div class="slider-dot active"></div>
-                    <div class="slider-dot"></div>
-                    <div class="slider-dot"></div>
-                </div>
-            </div>
-        </div>
-    </section>
-    
-    <!-- Trust Elements -->
-    <section class="container">
-        <h2>Trusted & Proven</h2>
-        <div class="trust-badges">
-            <div class="trust-badge">🔒 SSL Secure</div>
-            <div class="trust-badge">✅ FDA Approved Facility</div>
-            <div class="trust-badge">🏭 GMP Certified</div>
-            <div class="trust-badge">💸 90 Day Guarantee</div>
-        </div>
-        
-        <div style="text-align: center; margin-top: 30px;">
-            <h3>As Seen On</h3>
-            <div class="media-logos">
-                <div class="media-logo">Health Today</div>
-                <div class="media-logo">Women's Wellness</div>
-                <div class="media-logo">Natural Living</div>
-            </div>
-        </div>
-    </section>
-    
-    <!-- Final CTA -->
-    <section style="padding-top: 0;">
-        <div class="container">
-            <div class="offer-banner">
-                <h3>Don't Miss This Limited Offer!</h3>
-                <p>Your journey to enhanced confidence starts today with our special 5% discount.</p>
-                <a href="https://health-beauty-healthbuy.myshopify.com/breastactives" class="btn btn-large">Get Breast Actives Now</a>
-            </div>
-        </div>
-    </section>
-    
-    <!-- Footer -->
-    <footer>
-        <div class="container">
-            <div class="footer-grid">
-                <div class="footer-column">
-                    <h3>Shop</h3>
-                    <ul>
-                        <li><a href="https://health-beauty-healthbuy.myshopify.com/breastactives">Breast Actives</a></li>
-                        <li><a href="https://health-beauty-healthbuy.myshopify.com/menshealth">👨 Men's Health</a></li>
-                        <li><a href="https://health-beauty-healthbuy.myshopify.com/womenhealth">👩 Women's Health</a></li>
-                        <li><a href="https://health-beauty-healthbuy.myshopify.com/all">All Products</a></li>
-                        <li><a href="https://health-beauty-healthbuy.myshopify.com/category">Categories</a></li>
-                    </ul>
-                </div>
-                <div class="footer-column">
-                    <h3>Company</h3>
-                    <ul>
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">Contact</a></li>
-                        <li><a href="#">Blog</a></li>
-                    </ul>
-                </div>
-                <div class="footer-column">
-                    <h3>Legal</h3>
-                    <ul>
-                        <li><a href="#">Privacy Policy</a></li>
-                        <li><a href="#">Terms & Conditions</a></li>
-                        <li><a href="#">Shipping Policy</a></li>
-                    </ul>
-                </div>
-                <div class="footer-column">
-                    <h3>Disclaimer</h3>
-                    <p style="color: #ccc; font-size: 0.9em;">Individual results may vary. These statements have not been evaluated by the FDA. This product is not intended to diagnose, treat, cure, or prevent any disease.</p>
-                </div>
-            </div>
-            <div class="copyright">
-                © 2025 BodyTalk Secrets. All Rights Reserved.
-            </div>
-        </div>
-    </footer>
-    
-    <!-- Sticky Mobile CTA -->
-    <div class="sticky-cta">
-        <a href="https://health-beauty-healthbuy.myshopify.com/breastactives" class="btn">Tap to Claim 5% OFF Now</a>
-    </div>
-    
+
     <script>
-        // Countdown Timer
-        function updateCountdown() {
-            const now = new Date();
-            const endOfDay = new Date();
-            endOfDay.setHours(23, 59, 59, 999);
-            
-            const diff = endOfDay - now;
-            
-            const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-            const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
-            const seconds = Math.floor((diff % (1000 * 60)) / 1000);
-            
-            document.getElementById('hours').textContent = String(hours).padStart(2, '0');
-            document.getElementById('minutes').textContent = String(minutes).padStart(2, '0');
-            document.getElementById('seconds').textContent = String(seconds).padStart(2, '0');
-        }
-        
-        updateCountdown();
-        setInterval(updateCountdown, 1000);
-        
-        // Stock Counter
-        function updateStockCounter() {
-            const stock = Math.floor(Math.random() * 10) + 15;
-            document.querySelector('.stock-warning').textContent = `Only ${stock} bottles left in stock!`;
-        }
-        
-        updateStockCounter();
-        setInterval(updateStockCounter, 45000);
-        
-        // Testimonial Slider
-        let currentSlide = 0;
-        const slides = document.querySelectorAll('.testimonial');
-        const dots = document.querySelectorAll('.slider-dot');
-        const slider = document.getElementById('slider');
-        
-        function showSlide(index) {
-            slider.style.transform = `translateX(-${index * 100}%)`;
-            
-            dots.forEach((dot, i) => {
-                dot.classList.toggle('active', i === index);
-            });
-            
-            currentSlide = index;
-        }
-        
-        dots.forEach((dot, index) => {
-            dot.addEventListener('click', () => showSlide(index));
-        });
-        
+        // === COUNTDOWN TIMER ===
+        let time = 86400; // 24 hours
         setInterval(() => {
-            currentSlide = (currentSlide + 1) % slides.length;
-            showSlide(currentSlide);
-        }, 5000);
-        
-        // Smooth scrolling
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function(e) {
-                e.preventDefault();
-                const target = document.querySelector(this.getAttribute('href'));
-                if (target) {
-                    window.scrollTo({
-                        top: target.offsetTop,
-                        behavior: 'smooth'
-                    });
-                }
+            const hours = Math.floor(time / 3600);
+            const minutes = Math.floor((time % 3600) / 60);
+            const seconds = time % 60;
+            document.getElementById('timer').innerHTML = 
+                `${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
+            if (time-- <= 0) clearInterval(this);
+        }, 1000);
+
+        // === FAKE PURCHASE NOTIFICATIONS ===
+        function showNotification() {
+            const names = ["Sarah", "Emma", "Olivia"];
+            const cities = ["NY", "London", "Sydney"];
+            const msg = `🚀 ${names[Math.floor(Math.random()*3)]} from ${cities[Math.floor(Math.random()*3)]} just purchased!`;
+            
+            const notif = document.getElementById('notification');
+            notif.innerHTML = msg;
+            notif.style.display = 'block';
+            setTimeout(() => notif.style.display = 'none', 5000);
+            
+            // Track fake conversion
+            gtag('event', 'purchase', {
+                'currency': 'USD',
+                'value': 49.99,
+                'items': [{ 'item_id': 'BREAST_ACTIVES' }]
             });
-        });
+        }
+        
+        // Show first notification after 15 sec
+        setTimeout(showNotification, 15000);
+        // Repeat every 30-90 sec
+        setInterval(showNotification, 30000 + Math.random() * 60000);
     </script>
 </body>
 </html>
